@@ -50,9 +50,9 @@ main{
     overflow: hidden;
     transition-duration: 0.5s;
     display: flex;
-
     position: relative;
     margin: 20px;
+    cursor: pointer;
 }
 
 .foto{
@@ -68,7 +68,7 @@ main{
 }
 
 #item:hover  h3{
-    color: rgb(16, 197, 237);
+    color: rgb(17, 168, 223)
 }
 
 #item h3{
@@ -103,4 +103,19 @@ main{
     border-radius: 10px;
     margin: 5px;
     position: relative;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.main{
+    width: 80%;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
 }
