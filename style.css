@@ -42,6 +42,24 @@ li:hover{
     background: linear-gradient(to top, rgb(98, 195, 248), transparent);
 }
 
+li[data-seleccionado="true"]{
+    position: relative;
+    font-weight: bold;
+    font-size: large;
+}
+
+li[data-seleccionado="true"]::after{
+    content: "";
+    display: inline;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
 main{
     margin-left: 20px;
 }
@@ -136,4 +154,17 @@ a:link, a:visited{
     justify-content: center;
     width: 100%;
     margin-top: 20px;
+}
+
+#logo{
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#logo:hover{
+    filter: brightness(0.75)
+}
+
+a{
+    display: contents;
 }
