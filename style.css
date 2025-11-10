@@ -273,7 +273,7 @@ a{
     cursor: pointer;
     height: 100px;
     width: 300px;
-    margin-left: 20px;
+    margin-left: 60px;
     border-radius: 20px;
     /* border: 3px solid rgb(233, 208, 18); */
     background: linear-gradient(to top, red, rgb(209, 147, 12));
@@ -306,6 +306,7 @@ a{
     transform: scale(0.8);
     filter: brightness(0.7);
     cursor: pointer;
+    color: black;
 }
 
 .spidercard-jugar iframe{
@@ -326,6 +327,11 @@ section{
 
 }
 
+section[id="spider-2"]{
+    background: linear-gradient(to left, transparent, rgba(215, 117, 12, 0.382) 60%, rgba(234, 53, 8, 0.382));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.557), inset 5px 0px 30px rgba(0, 0, 0, 0.437);
+}
+
 section::after{
     content: "";
     position: absolute;
@@ -334,5 +340,31 @@ section::after{
     background-color: rgb(0, 98, 255);
     left: 0;
     top:0;
+}
 
+section[id="spider-2"]::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    left: 0;
+    top:0;
+
+}
+
+#paginas{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.diseños{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.diseños img {
+    margin: 20px;
 }

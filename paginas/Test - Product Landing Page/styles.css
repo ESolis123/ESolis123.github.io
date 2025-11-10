@@ -1,0 +1,228 @@
+body{
+    width: 100%;
+    background-color: rgb(235, 236, 241);
+    margin: 0;
+    font-family: Raleway;
+}
+
+header{
+    display: inline;
+}
+
+#top-bar{
+    width: 100%;
+    background-color: rgb(226, 147, 94);
+    max-width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top:0;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+#top-bar a{
+    margin:20px;
+    font-size: small;
+    transition-duration: 0.2s;
+    cursor: pointer;
+
+}
+
+nav a:hover{
+    font-weight: bold;
+
+}
+
+#top-bar header{
+    margin: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+
+}
+
+form header{
+    font-weight: bold;
+}
+
+form header,input{
+    margin-bottom: 20px;
+}
+
+#submit{
+    background: linear-gradient(rgb(238, 230, 160), rgb(230, 191, 107));
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid 2px rgb(136, 99, 45);
+    border-radius: 30px;
+    box-shadow: 0px 3px rgb(189, 185, 185);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover, .product:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+    width: 40%;
+    font-weight: bold;
+}
+
+.brand:hover{
+    font-size: 20px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    flex-direction: column;
+}
+
+.service-name{
+    font-weight: bold;
+}
+
+.service-package p{
+    margin: 0;
+}
+
+.service-package{
+    transition-duration: 0.5s;
+}
+
+.service-package:hover{
+    transform: scale(1.05);
+}
+
+.service-package{
+    display: flex;
+    margin: 20px;
+    cursor: help;
+}
+
+.icon{
+    margin-right: 20px;
+}
+
+.details{
+    width: 50%;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.product{
+    display: flex;
+    border: solid 2px rgb(224, 127, 71) ;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px rgb(184, 176, 166);
+    margin: 20px;
+    cursor: pointer;
+}
+
+.product-name{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(231, 181, 152);
+}
+
+
+.price{
+    font-weight: bold;
+}
+
+.product-description{
+    width: 80%;
+}
+
+footer{
+    background-color: rgb(226, 147, 94);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright{
+    font-size: 20px;
+    text-align: right;
+}
+
+.copy{
+    margin-right: 20px;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-footer a{
+    margin: 20px;
+    margin-bottom: 2px;
+}
+
+#nav-bar a{
+    margin: 20px;
+}
+
+#header
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    position: fixed;
+    top:0;
+}
+
+#header-img{
+    transform: rotate(-70deg);
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+#how-it-works{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 200px){
+    .price{
+        font-style: italic;
+    }
+}

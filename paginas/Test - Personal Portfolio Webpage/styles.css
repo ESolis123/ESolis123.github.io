@@ -1,0 +1,215 @@
+:root{
+    --red:rgb(190, 66, 66);
+}
+
+body{
+    margin: 0;
+    font-family: Raleway;
+    background-color: rgb(202, 197, 197);
+}
+
+#navbar{
+    top: 0;
+    background-color: var(--red);
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    margin-right: 20px;
+    box-shadow: 1px 3px black;
+    flex: 1;
+    margin-bottom: 0px;
+    position: fixed;
+}
+
+.link{
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+}
+
+.link:hover{
+    background-color: rgb(59, 76, 112);
+}
+
+#navbar a {
+    margin: 20px;
+    color: white;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+}
+
+#welcome-section{
+    margin-top: 0;
+    background: repeating-linear-gradient(40deg,black, rgb(51, 50, 50), black);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+}
+
+.profesion{
+    font-size: 18px;
+    color: var(--red);
+}
+
+main{
+    height: 100vh;
+    background-color: rebeccapurple;
+}
+.nombre{
+    font-size: 20px;
+    color: white;
+}
+
+#projects{
+    background-color: rgb(59, 76, 112);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projects header{
+    color: white;
+    font-size: 30px;
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    /*border-bottom: 2px solid white;*/
+}
+
+#library-projects{
+    display: flex;
+    justify-content: center;
+}
+
+.project-tile{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.project-title{
+    background:rgb(41, 38, 54);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: Raleway;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+.portada{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.portada img{
+    object-fit: cover;
+}
+
+#show-div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#show-all-button{
+    background-color: rgb(41, 38, 54);
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin: 50px;
+    width: 100px;
+    font-family: Raleway;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#show-all-button:hover{
+    background-color: var(--red);
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    background-color: rgb(41, 38, 54);
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact header{
+    margin: 40px;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 30px;
+}
+
+#contact p{
+    color: white;
+}
+#social-media{
+    color:white;
+    display: flex;
+}
+
+#social-media a{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#social-media a:hover{
+    transform: translate(0px, 10px);
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.linea-roja{
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    height: 5px;
+    background-color: var(--red);
+    border: none;
+    margin-top: 15vh;
+    margin-bottom: 20px;
+}
+
+#credits{
+    display: flex;
+    border-top: 2px solid var(--red);
+    width: 100%;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+#credits p{
+
+    margin-top: 20px;
+
+}
+
+@media (max-width:200px){
+
+}
