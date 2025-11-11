@@ -1,0 +1,22 @@
+{
+    "en":
+        {
+            "#nav-inicio" : "Home",
+            "#nav-paginas-web": "Websites",
+            "#nav-videojuegos": "Video Games",
+            "#nav-programas-escritorio": "Desktop Applications",
+            "#nav-diseño-grafico": "Graphic Design"
+        }
+    ,
+
+    "es":
+        {
+            "#nav-inicio" : "Inicio",
+            "#nav-paginas-web": "Páginas web",
+            "#nav-videojuegos": "Videojuegos",
+            "#nav-programas-escritorio": "Programas de escritorio",
+            "#nav-diseño-grafico": "Diseño gráfico"
+        }
+
+
+}

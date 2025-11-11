@@ -10,13 +10,16 @@
     <nav>
 
         <a href="/index.html"><img id="logo" src="/fotos/solis portfolio logo.png"></img></a>
+
+
+
         <div class="nav-list">
             <ul>
-                <a href="/index.html" ><li data-seleccionado="true">Inicio</li></a>
-                <a href="/paginas-web.html"><li>Páginas web</li></a>
-                <a href="/videojuegos.html"><li>Videojuegos</li></a>
-                <a href="/programas.html"><li>Programas de escritorio</li></a>
-                <a href="/diseño-grafico.html"><li>Diseño gráfico</li></a>
+                <a href="/index.html" ><li id="nav-inicio" data-seleccionado="true">Inicio</li></a>
+                <a href="/paginas-web.html"><li id="nav-paginas-web">Páginas web</li></a>
+                <a href="/videojuegos.html"><li id="nav-videojuegos">Videojuegos</li></a>
+                <a href="/programas.html"><li id="nav-programas-escritorio">Programas de escritorio</li></a>
+                <a href="/diseño-grafico.html"><li id="nav-diseño-grafico">Diseño gráfico</li></a>
             </ul>
         </div>
 
@@ -84,10 +87,16 @@
                 <img class="foto"  src="/fotos/CAAPRE AZUL 2ok.png"/>
             </div>
         </a>
-
-
-
     </main>
 
+    <div class="languages-button">
+            <button data-disabled="true" class="lang-button spain-button">
+                <span class="lang-label">ES</span>
+            </button>
+            <button class="lang-button england-button">
+                <span class="lang-label">EN</span>
+            </button>
+        </div>
+    <script src="/language-manager.js"></script>
 </body>
 </html>
