@@ -83,6 +83,10 @@ main{
     position: relative;
     margin: 20px;
     cursor: pointer;
+    font-family: Raleway;
+    border: none;
+    padding: 0;
+    justify-content: left;
 }
 
 .foto{
@@ -139,6 +143,7 @@ main{
     margin: 5px;
     position: relative;
     text-align: center;
+    font-size: 15px;
 }
 
 a{

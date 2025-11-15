@@ -5,9 +5,18 @@
             "#nav-paginas-web": "Websites",
             "#nav-videojuegos": "Video Games",
             "#nav-programas-escritorio": "Desktop Applications",
-            "#nav-diseño-grafico": "Graphic Design"
-        }
-    ,
+            "#nav-diseño-grafico": "Graphic Design",
+            "#main-paginas-web": "Websites",
+            "#main-videojuegos": "Video Games",
+            "#main-programas-escritorio":"Desktop Applications",
+            "#main-diseño-grafico":"Graphic Design",
+            "#egg-dash-descripcion": "This was a game I had the opportunity to collaborate on while working at Supernova Services. As the lead developer, I was responsible for programming and creating many of the graphic assets, as well as integrating all the essential components such as music, dialogues, sound effects, and various libraries or SDKs like Firebase Analytics, AdMob, Crashlytics, and others. The game featured three level series: Ice, Desert, and Amazon—each with its own unique backgrounds, music, and mini-games.",
+            "#spider-cards-descripcion":"This was a game I created for the Video Game Programming course at university. The objective is to find matching pairs of cards before time runs out. The backgrounds, cards, music, and typography are all designed based on the Spider-Man character. The menus allow players to adjust the minimum and maximum number of cards per level, as well as the duration of each level.",
+            "#programas-title": "Desktop Applications",
+            "#rubrica-descripcion":"Program built in C# using Windows Forms for the GUI, designed to evaluate students through rubrics. It allows the creation of different criteria, the construction of a scoring system, and the ability to save the data for future use.",
+            "#ejemplo-subtitulo":"Example",
+            "#jugar-spider-card": "PLAY"
+        },
 
     "es":
         {
@@ -15,7 +24,17 @@
             "#nav-paginas-web": "Páginas web",
             "#nav-videojuegos": "Videojuegos",
             "#nav-programas-escritorio": "Programas de escritorio",
-            "#nav-diseño-grafico": "Diseño gráfico"
+            "#nav-diseño-grafico": "Diseño gráfico",
+            "#main-paginas-web": "Páginas web",
+            "#main-videojuegos": "Videojuegos",
+            "#main-programas-escritorio":"Programas de escritorio",
+            "#main-diseño-grafico":"Diseño gráfico",
+            "#egg-dash-descripcion":"Este fue un juego en el que me correspondió colaborar mientras trabajaba en Supernova Services. Como desarrollador principal, fui responsable de la programación y la creación de muchos de los recursos gráficos, así como de la integración de todos los componentes necesarios, como música, diálogos, efectos de sonido y diversas bibliotecas o SDKs como Firebase Analytics, Admob, Crashlytics y otros. Había tres series de niveles: Hielo, Desierto y Amazonas, cada una con fondos, música y minijuegos únicos.",
+            "#spider-cards-descripcion":"Este fue un juego que creé para la asignatura <em>Programación de Videojuegos</em> en la universidad. El objetivo es encontrar pares de cartas iguales antes de que se acabe el tiempo. Los fondos, las cartas, la música y la tipografía están diseñados con base en el personaje Spider-Man. Los menús permiten ajustar el número mínimo y máximo de cartas por nivel, así como la duración de cada nivel.",
+            "#programas-title": "Programas de escritorio",
+            "#rubrica-descripcion":"Programa hecho en C# con Windows Forms para la GUI, para evaluar alumnos mediante rúbricas. Permite crear diferentes criterios, construir un sistema de puntuación, y guardar dicha data para volver a trabajarla luego.",
+            "#ejemplo-subtitulo":"Ejemplo",
+            "#jugar-spider-card": "JUGAR"
         }
 
 
