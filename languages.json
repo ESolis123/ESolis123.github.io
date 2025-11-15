@@ -6,6 +6,7 @@
             "#nav-videojuegos": "Video Games",
             "#nav-programas-escritorio": "Desktop Applications",
             "#nav-diseño-grafico": "Graphic Design",
+            "#nav-sobre-mi": "About me",
             "#main-paginas-web": "Websites",
             "#main-videojuegos": "Video Games",
             "#main-programas-escritorio":"Desktop Applications",
@@ -15,7 +16,10 @@
             "#programas-title": "Desktop Applications",
             "#rubrica-descripcion":"Program built in C# using Windows Forms for the GUI, designed to evaluate students through rubrics. It allows the creation of different criteria, the construction of a scoring system, and the ability to save the data for future use.",
             "#ejemplo-subtitulo":"Example",
-            "#jugar-spider-card": "PLAY"
+            "#jugar-spider-card": "PLAY",
+            "#sobre-mi-titulo": "About me",
+            "#sobre-mi-descripcion": "Hi, I’m José Enrique Solís, a software developer based in the Dominican Republic. I specialize in video games, desktop applications, and modern websites. I enjoy building interactive experiences that blend visual design and functionality using tools like C#, HTML, CSS, and JavaScript.",
+            "#sobre-mi-certificados-titulo": "Certificates"
         },
 
     "es":
@@ -25,6 +29,7 @@
             "#nav-videojuegos": "Videojuegos",
             "#nav-programas-escritorio": "Programas de escritorio",
             "#nav-diseño-grafico": "Diseño gráfico",
+            "#nav-sobre-mi": "Sobre mí",
             "#main-paginas-web": "Páginas web",
             "#main-videojuegos": "Videojuegos",
             "#main-programas-escritorio":"Programas de escritorio",
@@ -34,7 +39,10 @@
             "#programas-title": "Programas de escritorio",
             "#rubrica-descripcion":"Programa hecho en C# con Windows Forms para la GUI, para evaluar alumnos mediante rúbricas. Permite crear diferentes criterios, construir un sistema de puntuación, y guardar dicha data para volver a trabajarla luego.",
             "#ejemplo-subtitulo":"Ejemplo",
-            "#jugar-spider-card": "JUGAR"
+            "#jugar-spider-card": "JUGAR",
+            "#sobre-mi-titulo": "Sobre mí",
+            "#sobre-mi-descripcion": "Hola, soy José Enrique Solís, desarrollador de software en la República Dominicana. Me especializo en videojuegos, aplicaciones de escritorio y sitios web modernos. Disfruto crear experiencias interactivas que combinan diseño atractivo y funcionalidad, usando tecnologías como C#, HTML, CSS y JavaScript.",
+            "#sobre-mi-certificados-titulo": "Certificados"
         }
 
 

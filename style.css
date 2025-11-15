@@ -200,9 +200,6 @@ a{
     cursor: pointer;
 }
 
-
-
-
 .lista-juegos li::before{
     content:"";
     width: 30px;
@@ -320,7 +317,7 @@ a{
     height: 250px
 }
 
-section{
+.videogame{
     box-sizing: border-box;
     padding: 20px;
     background: linear-gradient(to left, transparent, rgba(15, 56, 169, 0.382) 60%, rgba(36, 146, 242, 0.382));
@@ -332,12 +329,12 @@ section{
 
 }
 
-section[id="spider-2"]{
+.videogame[id="spider-2"]{
     background: linear-gradient(to left, transparent, rgba(215, 117, 12, 0.382) 60%, rgba(234, 53, 8, 0.382));
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.557), inset 5px 0px 30px rgba(0, 0, 0, 0.437);
 }
 
-section::after{
+.videogame::after{
     content: "";
     position: absolute;
     width: 10px;
@@ -347,7 +344,7 @@ section::after{
     top:0;
 }
 
-section[id="spider-2"]::after{
+.videogame[id="spider-2"]::after{
     content: "";
     position: absolute;
     width: 10px;

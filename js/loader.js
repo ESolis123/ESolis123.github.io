@@ -1,16 +1,18 @@
 document.addEventListener("DOMContentLoaded", ()=>{
     agregarEventos();
-    cargarPagina("/main.html");
+    cargarPagina("/contenido/main.html");
 
 })
 
 function agregarEventos(){
     let dict = new Map();
-    dict.set("nav-inicio", "/main.html");
-    dict.set("nav-paginas-web", "/paginas-web.html");
-    dict.set("nav-videojuegos", "/videojuegos.html");
-    dict.set("nav-programas-escritorio", "/programas.html");
-    dict.set("nav-diseño-grafico", "/diseño-grafico.html");
+    dict.set("nav-inicio", "/contenido/main.html");
+    dict.set("nav-paginas-web", "/contenido/paginas-web.html");
+    dict.set("nav-videojuegos", "/contenido/videojuegos.html");
+    dict.set("nav-programas-escritorio", "/contenido/programas.html");
+    dict.set("nav-diseño-grafico", "/contenido/diseño-grafico.html");
+    dict.set("nav-sobre-mi", "/contenido/about-me.html");
+
     let botones = [];
 
     for(let [id, value] of dict.entries()){
