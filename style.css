@@ -154,7 +154,7 @@ main{
     font-size: 15px;
 }
 
-a{
+nav a{
     text-decoration: none;
 
 }
@@ -163,10 +163,6 @@ a{
     width: 80%;
 }
 
-a:link, a:visited{
-    text-decoration: none;
-    color: white;
-}
 
 .rubrica_img{
     box-shadow: 05px 0px 20px black;
@@ -190,7 +186,7 @@ a:link, a:visited{
     filter: brightness(0.75)
 }
 
-a{
+nav a{
     display: contents;
 }
 

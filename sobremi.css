@@ -45,6 +45,7 @@
     margin: 5px;
     transition-duration: 0.5s;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .social-media-button:hover{
@@ -91,4 +92,13 @@
     right: 0;
     display: flex;
     flex-direction: column;
+}
+
+.list-certificados li{
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.list-certificados li:hover{
+    font-weight: bold;
 }
