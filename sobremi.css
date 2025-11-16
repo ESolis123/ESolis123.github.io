@@ -46,6 +46,8 @@
     transition-duration: 0.5s;
     cursor: pointer;
     text-decoration: none;
+    display: flex;
+
 }
 
 .social-media-button:hover{
@@ -102,3 +104,23 @@
 .list-certificados li:hover{
     font-weight: bold;
 }
+
+.icon{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    margin-right: 0px;
+}
+
+.github-icon{
+    background-image: url(/icons/github.svg);
+}
+
+.linkedin-icon{
+    background-image: url(/icons/linkedin.svg);
+}
+
+.hackerrank-icon{
+    background-image: url(/icons/hackerrank.svg);
+}
+
