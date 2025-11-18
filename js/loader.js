@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
     botonSubirArriba.addEventListener("click", ()=>{
         subirScroll();
     })
+
+    botonSubirArriba.dataset.habilitado = "false";
 })
 
 window.addEventListener("scroll", ()=>{
