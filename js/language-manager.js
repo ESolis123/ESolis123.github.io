@@ -47,6 +47,6 @@ function CambiarLabels(){
         console.log("ID: " + id);
         console.log("label:", label)
         if(label != null && label != undefined)
-            label.innerText = lenguaje[id];
+            label.innerHTML = lenguaje[id];
     }
 }

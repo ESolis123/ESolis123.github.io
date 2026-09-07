@@ -6,7 +6,7 @@
 }
 
 #sobre-mi{
-    margin-left: 20px;
+
     width: 80%;
     position: relative;
 }
@@ -97,7 +97,7 @@
 }
 
 .list-certificados li{
-    text-decoration: underline !important;
+    /* text-decoration: underline !important; */
     cursor: pointer;
 }
 

@@ -21,10 +21,13 @@ body{
 
 nav{
     display: flex;
-    background: rgb(50, 132, 179);
+    background: rgb(11 61 135);
     width: 100%;
     height: 100px;
-    box-shadow: 0px -10px 30px black;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }
 
 .nav-list {
@@ -76,15 +79,26 @@ nav li[data-seleccionado="true"]::after{
 }
 
 main{
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
-.item{
-    background-color: black;
-    width: 80%;
+.title-button{
+    -webkit-text-stroke: 5px solid rgb(255, 255, 255) ;
+    font-weight: bold;
+    color:rgb(245, 245, 245) !important;
+}
+
+.nav-block{
+    background: url(/fotos/Fondo\ patron.png);
+    background-size: 500px;
+    width: 70%;
     height: 200px;
-    border-radius: 20px;
-    box-shadow: 0px 2px 10px black;
+
+
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 200px solid transparent;
     overflow: hidden;
     transition-duration: 0.5s;
     display: flex;
@@ -93,6 +107,13 @@ main{
     cursor: pointer;
     font-family: "Raleway";
     border: none;
+
+    mask-image: url(/fotos/dry-brush-stroke-2-1024x384.svg);
+-webkit-mask-image: url(fotos/dry-brush-stroke-2-1024x384.svg);
+mask-size: cover; /* O '100% 100%' si quieres forzarlo exactamente al tamaño del div */
+  mask-repeat: no-repeat;
+ mask-position: 10px -50px;
+    mask-clip: stroke-box;
     padding: 0;
     justify-content: left;
 }
@@ -105,22 +126,22 @@ main{
     filter: drop-shadow(to right, 2px black);
 }
 
-.item:hover{
+.nav-block:hover{
     transform: translateX(50px);
 }
 
-.item:hover  h3{
+.nav-block:hover  h3{
     color: rgb(17, 168, 223)
 }
 
-.item h3{
+.nav-block h3{
     margin-bottom: 20px;
     font-size: 50px;
     box-sizing: border-box;
     color: white;
 }
 
-.item img{
+.nav-block img{
     transform: rotateZ(2deg);
     height:120%;
 }
@@ -151,15 +172,16 @@ main{
 .mascara{
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     position: absolute;
     opacity: 0.9;
     z-index: 500;
+     box-shadow: inset 0px -20px  10px rgb(245, 238, 238);
 }
 
-.item span{
+.nav-block span{
     width:max-content;
-    background: linear-gradient(rgb(161, 17, 223), rgb(99, 21, 99));
+    background: linear-gradient(rgb(17, 113, 223), rgb(26, 11, 233));
     padding: 5px;
     padding-right: 20px;
     border-radius: 10px;
@@ -187,9 +209,12 @@ nav a{
 
 .video-youtube{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 100%;
     margin-top: 20px;
+    margin-left: 7.5em;
+    margin-bottom: 2em;
+
 }
 
 #logo{
@@ -489,4 +514,41 @@ nav a{
 
 #boton-ir-arriba[data-habilitado="false"]{
     opacity: 0;
+}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+
+
+
+#myCarousel2, #myCarousel{
+    height: 20%;
+    margin: auto;
+    margin-bottom: 50px;
+    width:90%;
+}
+
+
+.carousel-control.left, .carousel-control.right{
+    background-image: none !important;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control{
+
+    color: rgb(11 61 135) !important;
+}
+
+#consultorio-gifs{
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#correo{
+    cursor:pointer;
 }

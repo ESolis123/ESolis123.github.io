@@ -9,6 +9,7 @@
             "#nav-sobre-mi": "About me",
             "#main-paginas-web": "Websites",
             "#main-videojuegos": "Video Games",
+            "#title-videojuegos": "Video Games",
             "#main-programas-escritorio":"Desktop Applications",
             "#main-diseño-grafico":"Graphic Design",
             "#egg-dash-descripcion": "This was a game I had the opportunity to collaborate on while working at Supernova Services. As the lead developer, I was responsible for programming and creating many of the graphic assets, as well as integrating all the essential components such as music, dialogues, sound effects, and various libraries or SDKs like Firebase Analytics, AdMob, Crashlytics, and others. The game featured three level series: Ice, Desert, and Amazon—each with its own unique backgrounds, music, and mini-games.",
@@ -18,8 +19,12 @@
             "#ejemplo-subtitulo":"Example",
             "#jugar-spider-card": "PLAY",
             "#sobre-mi-titulo": "About me",
-            "#sobre-mi-descripcion": "Hi, I’m José Enrique Solís, a software developer based in the Dominican Republic. I specialize in video games, desktop applications, and modern websites. I enjoy building interactive experiences that blend visual design and functionality using tools like C#, HTML, CSS, and JavaScript.",
-            "#sobre-mi-certificados-titulo": "Certificates"
+            "#sobre-mi-descripcion": "Hi, I’m José Enrique Solís, a software developer based in the Dominican Republic. I specialize in video games, desktop applications, and modern websites. I enjoy building interactive experiences that blend visual design and functionality using tools like C#, HTML, CSS, and JavaScript. <br><br> If you wish to contact me, you can do it in this <a id=\"correo\" href=\"mailto:acostaenrique954@gmail.com\">email</a>.",
+            "#sobre-mi-certificados-titulo": "Certificates",
+            "#cotizaciones-title":"Quotation Web Page",
+            "#cotizaciones-descripcion":"<p>Web application designed for the automated generation of product quotations tailored to the Dominican market. It streamlines the commercial process through client lookup via an RNC search tool, centralized management of suppliers, clients, and product catalogs, flexible price management, and direct export of quotations in Excel or PDF formats without manual intervention.</p><p><strong>Key features:</strong></p><ul><li>Quick client lookup and selection via RNC search tool (Dominican market)</li><li>Comprehensive management of suppliers and clients</li><li>Product catalog administration and price control</li><li>Automatic generation of Excel and PDF files for quotations</li><li>Optimization of the sales workflow and elimination of manual processes</li></ul>",
+            "#consultorio-title":"Dental Clinic",
+            "#consultorio-descripcion":"<p>Project developed for the Integrative Project course at the university. It consists of a comprehensive management platform for dental clinics with multi-user support (doctors, assistants, and system administrators).</p><p><strong>Key features:</strong></p><ul><li>Appointment management and calendar</li><li>Interactive odontogram</li><li>Billing and payment control</li><li>Report generation</li><li>AI-driven suggestion module</li><li>Profile administration for doctors and assistants</li></ul>"
         },
 
     "es":
@@ -32,6 +37,7 @@
             "#nav-sobre-mi": "Sobre mí",
             "#main-paginas-web": "Páginas web",
             "#main-videojuegos": "Videojuegos",
+            "#title-videojuegos": "Videojuegos",
             "#main-programas-escritorio":"Programas de escritorio",
             "#main-diseño-grafico":"Diseño gráfico",
             "#egg-dash-descripcion":"Este fue un juego en el que me correspondió colaborar mientras trabajaba en Supernova Services. Como desarrollador principal, fui responsable de la programación y la creación de muchos de los recursos gráficos, así como de la integración de todos los componentes necesarios, como música, diálogos, efectos de sonido y diversas bibliotecas o SDKs como Firebase Analytics, Admob, Crashlytics y otros. Había tres series de niveles: Hielo, Desierto y Amazonas, cada una con fondos, música y minijuegos únicos.",
@@ -41,8 +47,12 @@
             "#ejemplo-subtitulo":"Ejemplo",
             "#jugar-spider-card": "JUGAR",
             "#sobre-mi-titulo": "Sobre mí",
-            "#sobre-mi-descripcion": "Hola, soy José Enrique Solís, desarrollador de software en la República Dominicana. Me especializo en videojuegos, aplicaciones de escritorio y sitios web modernos. Disfruto crear experiencias interactivas que combinan diseño atractivo y funcionalidad, usando tecnologías como C#, HTML, CSS y JavaScript.",
-            "#sobre-mi-certificados-titulo": "Certificados"
+            "#sobre-mi-descripcion": "Hola, soy José Enrique Solís, un desarrollador de software de la República Dominicana. Me especializo en videojuegos, aplicaciones de escritorio y sitios web modernos. Disfruto creando experiencias interactivas que combinan diseño visual y funcionalidad utilizando herramientas como C#, HTML, CSS y JavaScript. <br><br> Si deseas contactarme, puedes hacerlo en este <a id=\"correo\" href=\"mailto:acostaenrique954@gmail.com\">correo</a>.",
+            "#sobre-mi-certificados-titulo": "Certificados",
+            "#consultorio-title":"Consultorio Odontológico",
+            "#cotizaciones-title":"Página para cotizaciones",
+            "#cotizaciones-descripcion":"<p>Aplicación web diseñada para la generación automatizada de cotizaciones de productos orientada al mercado dominicano. Permite agilizar el proceso comercial mediante la consulta de clientes a través del buscador de RNC, la administración centralizada de proveedores, clientes y catálogo de productos, el manejo flexible de precios y la exportación directa de cotizaciones en formatos Excel o PDF sin intervención manual.</p><p><strong>Características principales:</strong></p><ul><li>Consulta y selección rápida de clientes mediante buscador de RNC (mercado dominicano)</li><li>Gestión integral de proveedores y clientes</li><li>Administración de catálogo de productos y control de precios</li><li>Generación automática de archivos Excel y PDF para las cotizaciones</li><li>Optimización del flujo de ventas y eliminación de procesos manuales</li></ul>",
+            "#consultorio-descripcion": "<p>Proyecto desarrollado para la materia de Proyecto Integrador en la universidad. Consiste en una plataforma de gestión integral para consultorios odontológicos con soporte multiusuario (doctores, asistentes y administradores del sistema).</p><p><strong>Características principales:</strong></p><ul><li>Gestión y calendario de citas</li><li>Odontograma interactivo</li><li>Control de facturación y pagos</li><li>Generación de reportes</li><li>Módulo de sugerencias impulsado por Inteligencia Artificial</li><li>Administración de perfiles para doctores y asistentes</li></ul>"
         }
 
 
